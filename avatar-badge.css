@@ -1,0 +1,46 @@
+:root {
+    --primary-color: white;
+    --badge-icon-bg-color:blue;
+    --badge-avatar-bg-color:green;
+  }
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(187, 181, 175);
+}
+
+.html {
+font-size: 62.5%;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 10rem;
+}
+.badge-container {
+    position: relative;
+}
+
+.fa {
+    font-size: 3rem;
+}
+.badge {
+    position: absolute;   
+    border-radius:50%;
+    padding: 2px;
+    font-size: 1rem;
+    
+}
+
+.badge-icon {
+    background-color: var(--badge-icon-bg-color);
+    left: 1.5rem;
+    top: 0rem;
+}
+
+.badge-avatar {
+    background-color: var(--badge-avatar-bg-color);
+    padding: 1rem;
+    top: 75%;
+    left:7rem;
+}

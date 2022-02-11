@@ -13,19 +13,6 @@ body {
 font-size: 62.5%;
 }
 
-.img-container {
-    margin:5px;
-}
-
-.img {
-    width: 20%;
-    height: 20%;
-}
-
-.img-rounded {
-    border-radius: 50%;
-}
-
 .input {
     margin: 1rem;
     padding: 0.5rem;

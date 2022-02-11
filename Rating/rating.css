@@ -1,0 +1,18 @@
+:root {
+    --gold-color: gold;
+}
+.html {
+    font-size: 62.5%;
+}
+
+.rating {
+    font-size: 3rem;
+}
+
+.filled {
+    color: var(--gold-color);
+}
+
+.fa-star-o {
+    color:var(--gold-color);
+}

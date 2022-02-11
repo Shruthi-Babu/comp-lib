@@ -26,3 +26,6 @@ font-size: 62.5%;
     border-radius: 50%;
 }
 
+.img-round-border {
+    border-radius: 1rem;
+}

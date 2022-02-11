@@ -13,6 +13,6 @@
     color: var(--gold-color);
 }
 
-.fa-star-o {
+.fa-star:hover {
     color:var(--gold-color);
 }

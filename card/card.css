@@ -16,6 +16,10 @@ body {
 .html {
 font-size: 62.5%;
 }
+.container {
+    display: flex;
+    flex-direction: row;
+}
 
 .card {
     margin: 1rem;
@@ -23,6 +27,19 @@ font-size: 62.5%;
     box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
     border: 1px solid white;
     position: relative;
+}
+.card-with-badge {
+    position: relative;
+}
+.card-badge {
+    position: absolute;
+    top: 0.5rem;
+    left:13.5rem;
+    font-size: 2rem;
+}
+
+.card-badge:hover {
+    color: var(--warning-color);
 }
 
 .card:hover{

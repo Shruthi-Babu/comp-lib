@@ -1,0 +1,40 @@
+:root {
+    --primary-color: white;
+    --button-bg-color: rgb(0, 140, 255);
+    --danger-color:#ff7f7f;
+    --warning-color: #ffcc00;
+    --success-color: #76EE00	;
+  }
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(187, 181, 175);
+}
+
+.html {
+    font-size: 62.5%;
+}
+
+.alert {
+    margin:1rem;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+}
+
+.alert-warning {
+    background-color: var(--warning-color);
+}
+
+.alert-danger {
+    background-color: var(--danger-color);
+}
+
+.alert-success {
+    background-color: var(--success-color);
+}
+
+.fa-times {
+    text-align: right;
+}

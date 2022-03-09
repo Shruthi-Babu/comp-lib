@@ -1,6 +1,6 @@
 :root {
     --primary-color: white;
-    --badge-icon-bg-color:blue;
+    --badge-icon-bg-color:hotpink;
     --badge-avatar-bg-color:green;
   }
 
@@ -12,35 +12,40 @@ body {
 .html {
 font-size: 62.5%;
 }
-
 .avatar {
     border-radius: 50%;
     width: 10rem;
 }
 .badge-container {
     position: relative;
+    margin: 2rem;
 }
-
 .fa {
-    font-size: 3rem;
+    font-size: 2rem;
 }
-.badge {
-    position: absolute;   
+.badge {      
     border-radius:50%;
     padding: 2px;
     font-size: 1rem;
     
 }
-
-.badge-icon {
+.badge-on-icons {
+    display: flex;
+    flex-direction: row;
+}
+.badge-msg {
     background-color: var(--badge-icon-bg-color);
-    left: 1.5rem;
-    top: 0rem;
+    font-size: 0.7rem;
+    color: var(--primary-color);
+    position: absolute; 
+    left: 17px;
+    top:0px;
 }
 
 .badge-avatar {
     background-color: var(--badge-avatar-bg-color);
     padding: 1rem;
     top: 75%;
-    left:7rem;
+    left:9%;
+    position: absolute;
 }

@@ -1,0 +1,30 @@
+:root {
+    --primary-color: white;
+    --black: black;
+    --gray :gray;
+    --pearl-color:rgb(228, 212, 212);
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.html {
+font-size: 62.5%;
+} 
+
+.navigation-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+    background-color: var(--pearl-color);
+}
+
+.nav-item {
+    display: inline;
+    padding: 1rem;
+}
+
+.nav-item:hover {
+    background-color: var(--gray);
+}

@@ -1,0 +1,37 @@
+:root {
+    --primary-color: white;
+    --black: black;
+    --gray :gray;
+    --pearl-color:rgb(228, 212, 212);
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.html {
+font-size: 62.5%;
+} 
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.column-2 {
+    border: 1px solid var(--black);
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.column-3 {
+    border: 1px solid var(--black);
+    padding: 1rem;
+    margin: 0.5rem;
+}

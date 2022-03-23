@@ -1,0 +1,40 @@
+:root {
+    --primary-color: white;
+    --badge-icon-bg-color:blue;
+    --badge-avatar-bg-color:green;
+  }
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(187, 181, 175);
+}
+
+.html {
+font-size: 62.5%;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 10rem;
+}
+.xlarge {
+    height: 9rem;
+    width: 9rem;
+}
+
+.large {
+    height: 7rem;
+    width: 7rem;
+}
+
+.small {
+    height: 5rem;
+    width: 5rem;
+}
+
+.xsmall {
+    height: 3rem;
+    width: 3rem;
+}
+
+

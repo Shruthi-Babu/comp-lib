@@ -1,0 +1,51 @@
+:root {
+    --primary-color: white;
+    --badge-icon-bg-color:hotpink;
+    --badge-avatar-bg-color:green;
+  }
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(187, 181, 175);
+}
+
+.html {
+font-size: 62.5%;
+}
+.avatar {
+    border-radius: 50%;
+    width: 10rem;
+}
+.badge-container {
+    position: relative;
+    margin: 2rem;
+}
+.fa {
+    font-size: 2rem;
+}
+.badge {      
+    border-radius:50%;
+    padding: 2px;
+    font-size: 1rem;
+    
+}
+.badge-on-icons {
+    display: flex;
+    flex-direction: row;
+}
+.badge-msg {
+    background-color: var(--badge-icon-bg-color);
+    font-size: 0.7rem;
+    color: var(--primary-color);
+    position: absolute; 
+    left: 17px;
+    top:0px;
+}
+
+.badge-avatar {
+    background-color: var(--badge-avatar-bg-color);
+    padding: 1rem;
+    top: 75%;
+    left:9%;
+    position: absolute;
+}

@@ -1,10 +1,5 @@
 :root {
-    --primary-color: white;
-    --button-bg-color: rgb(0, 140, 255);
-    --danger-color:#ff7f7f;
-    --warning-color: #ffcc00;
-    --success-color: rgb(92, 218, 20);
-    --teal-color:#0C9;
+    
   }
 
 body {
@@ -23,6 +18,7 @@ font-size: 62.5%;
     width: 6rem;
     height: 3rem;
     padding: 1rem;
+    cursor: pointer;
 }
 
 .btn-outline {

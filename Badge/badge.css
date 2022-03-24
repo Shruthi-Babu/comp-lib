@@ -1,7 +1,5 @@
 :root {
-    --primary-color: white;
-    --badge-icon-bg-color:hotpink;
-    --badge-avatar-bg-color:green;
+
   }
 
 body {
@@ -12,10 +10,10 @@ body {
 .html {
 font-size: 62.5%;
 }
-.avatar {
+/* .avatar {
     border-radius: 50%;
     width: 10rem;
-}
+} */
 .badge-container {
     position: relative;
     margin: 2rem;
@@ -46,6 +44,8 @@ font-size: 62.5%;
     background-color: var(--badge-avatar-bg-color);
     padding: 1rem;
     top: 75%;
-    left:9%;
+    left:11%;
+    border: 3px solid var(--primary-color);
+    border-radius: 50%;
     position: absolute;
 }

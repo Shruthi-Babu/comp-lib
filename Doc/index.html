@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    
+    <link rel="stylesheet" href="./styles.css">
+    <title>MyUI</title>
+</head>
+<body>
+    <div class="doc-container">
+        
+            <ul class="navigation-container">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Github</li>
+              </ul>
+        
+        <aside class="sidebar">
+            <h2>Components</h2>
+            <ul>
+                <li><a href="#">Alert</a></li>
+                <li><a href="#">Avatar</a></li>
+                <li><a href="#">Badge</a></li>
+                <li><a href="#">Button</a></li>
+                <li><a href="#">Card</a></li>
+                <li><a href="#">Grid</a></li>
+                <li><a href="#">Image</a></li>
+                <li><a href="#">Input</a></li>
+                <li><a href="#">Modal</a></li>
+                <li><a href="#">Rating</a></li>
+                <li><a href="#">Toast</a></li>
+                <li><a href="#">Typography</a></li>
+            </ul>
+        </aside>
+        <div class="content">
+            <div class="alert-container">
+                <h1>Alert</h1>
+                <div class='alert alert-warning'> This is a warning alert! <i class="fa fa-times"></i></div>
+                <div class='alert alert-success'> This is a success alert!<i class="fa fa-times"></i></div>
+                <div class='alert alert-danger'> This is a danger alert!<i class="fa fa-times"></i></div>
+   
+                <div class="code-snippet">
+                    <h4>HTML: </h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FAlert%2Falert.html%23L14-L18&style=darcula&showCopy=on"></script>
+                    <h4>Javascript</h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FAlert%2Falert.js%23L1-L8&style=darcula&showBorder=on&showCopy=on"></script>                </div>
+            </div>
+            <div class="avatar-container">
+                <h1>Avatar</h1>
+                <img class= "avatar xlarge" src = "../Avatar/avatar.jpeg">
+                <img class= "avatar large" src = "../Avatar/avatar.jpeg ">
+                <img class= "avatar small" src = "../Avatar/avatar.jpeg">
+                <img class= "avatar xsmall" src = "../Avatar/avatar.jpeg">
+
+                <div class="code-snippet">
+                    <h4>HTML: </h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FAvatar%2Favatar.html%23L14-L19&style=darcula&showBorder=on&showCopy=on"></script>
+                </div>
+            </div>
+
+            <div class="badge-wrapper">
+                <h1>Badge</h1>
+                <div class="badge-on-icons">
+                    <div class="badge-container">
+                        <i class="fa fa-bell"></i> 
+                        <span class="badge badge-msg">100</span>
+                    </div>
+            
+                    <div class="badge-container">
+                    <i class="fa fa-envelope"></i> 
+                    <span class="badge badge-msg">160</span>
+                    </div>
+                </div>
+                <div class="badge-container">
+                  <img class= "avatar" src = "../Avatar/avatar.jpeg ">
+                  <span class="badge badge-avatar"></span>
+                </div>
+                <h4>HTML</h4>
+                <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FBadge%2Fbadge.html%23L15-L30&style=darcula&showBorder=on&showCopy=on"></script>            
+            </div>
+            <div class="button-container">
+                <h1>Button</h1>
+                <button class="btn">Primary</button>
+                <button class="btn btn-outline">Outline</button>
+                <button class="btn btn-danger">Danger </button>
+                <button class="btn btn-warning">Warning </button>
+                <a class="btn" href="https://google.com" target="_blank"> Click Me</a>
+                <button class="btn btn-icon">
+                    <i class="fa fa-home"></i>
+                </button>
+                <div>
+                    <button class="btn btn-float"><i class="fa fa-plus"></i></button>
+                </div>
+                <div class="code-snippet">
+                    <h4>HTML: </h4>                    
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FBadge%2Fbadge.html%23L14-L30&style=darcula&showBorder=on&showCopy=on"></script>
+                </div>
+            </div>
+            <div class="grid-wrapper">
+                <h1>Grids</h1>
+                <div class="grid-container-2">
+                    <div class="column-2">
+                        <img src = "https://picsum.photos/500/200"/>
+                    </div>
+                    <div class="column-2">
+                        <img src = "https://picsum.photos/400/200"/>
+                    </div>
+                   
+                </div>
+                <div class="grid-container-3">
+                    <div class="column-3">
+                        <img src = "https://picsum.photos/320/200"/>
+                    </div>
+                    <div class="column-3">
+                        <img src = "https://picsum.photos/320/200"/>
+                    </div>
+                    <div class="column-3">
+                        <img src = "https://picsum.photos/320/200"/>
+                    </div>            
+                </div>
+
+                <div class="code-snippet">
+                    <h4>HTML: </h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FGrids%2Fgrid.html%23L14-L33&style=darcula&showBorder=on&showCopy=on"></script>
+                </div>
+
+            </div>
+            <div class="image-wrapper">
+
+            </div>
+
+        </div>
+    </div>
+    
+
+            
+           
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

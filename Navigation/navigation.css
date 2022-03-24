@@ -17,7 +17,8 @@ font-size: 62.5%;
     list-style-type: none;
     margin: 0;
     padding: 1rem;
-    background-color: var(--pearl-color);
+    background-color: var(--primary-color);
+    text-align: right;
 }
 
 .nav-item {

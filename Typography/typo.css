@@ -1,12 +1,3 @@
-:root {
-    --gray: gray;
-}
-html {
-    font-size: 62.5%;
-}
-body {
-    font-family:Nunito Sans;
-}
 
 .extra-large-text {
     font-size: 2.5rem;

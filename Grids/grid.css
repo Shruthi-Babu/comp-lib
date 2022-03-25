@@ -13,7 +13,7 @@ font-size: 62.5%;
 .grid-container-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* grid-template-rows: minmax(30px, 200px);; */
+    grid-template-rows: minmax(30px, auto);
 }
 .column-2 {
     border: 1px solid var(--black);

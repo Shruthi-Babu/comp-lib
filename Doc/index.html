@@ -17,28 +17,28 @@
         
             <ul class="navigation-container">
                 <li class="nav-item">Home</li>
-                <li class="nav-item">Github</li>
+                <li class="nav-item">Github <i class="fa fa-github" aria-hidden="true"></i></li>
               </ul>
         
         <aside class="sidebar">
             <h2>Components</h2>
             <ul>
-                <li><a href="#">Alert</a></li>
-                <li><a href="#">Avatar</a></li>
-                <li><a href="#">Badge</a></li>
-                <li><a href="#">Button</a></li>
-                <li><a href="#">Card</a></li>
-                <li><a href="#">Grid</a></li>
-                <li><a href="#">Image</a></li>
-                <li><a href="#">Input</a></li>
-                <li><a href="#">Modal</a></li>
-                <li><a href="#">Rating</a></li>
-                <li><a href="#">Toast</a></li>
-                <li><a href="#">Typography</a></li>
+                <li><a href="#alert-wrapper">Alert</a></li>
+                <li><a href="#avatar-wrapper">Avatar</a></li>
+                <li><a href="#badge-wrapper">Badge</a></li>
+                <li><a href="#button-wrapper">Button</a></li>
+                <li><a href="#card-wrapper">Card</a></li>
+                <li><a href="#grid-wrapper">Grid</a></li>
+                <li><a href="#image-wrapper">Image</a></li>
+                <li><a href="#input-wrapper">Input</a></li>
+                <li><a href="#modal-wrapper">Modal</a></li>
+                <li><a href="#rating-wrapper">Rating</a></li>
+                <li><a href="#toast-wrapper">Toast</a></li>
+                <li><a href="#typography-wrapper">Typography</a></li>
             </ul>
         </aside>
         <div class="content">
-            <div class="alert-container">
+            <div id="alert-wrapper">
                 <h1>Alert</h1>
                 <div class='alert alert-warning'> This is a warning alert! <i class="fa fa-times"></i></div>
                 <div class='alert alert-success'> This is a success alert!<i class="fa fa-times"></i></div>
@@ -47,10 +47,14 @@
                 <div class="code-snippet">
                     <h4>HTML: </h4>
                     <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FAlert%2Falert.html%23L14-L18&style=darcula&showCopy=on"></script>
+                </div>
+                <div class="js">
                     <h4>Javascript</h4>
-                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FAlert%2Falert.js%23L1-L8&style=darcula&showBorder=on&showCopy=on"></script>                </div>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FAlert%2Falert.js%23L1-L8&style=darcula&showBorder=on&showCopy=on"></script>
+                </div>
             </div>
-            <div class="avatar-container">
+
+            <div id="avatar-wrapper">
                 <h1>Avatar</h1>
                 <img class= "avatar xlarge" src = "../Avatar/avatar.jpeg">
                 <img class= "avatar large" src = "../Avatar/avatar.jpeg ">
@@ -63,7 +67,7 @@
                 </div>
             </div>
 
-            <div class="badge-wrapper">
+            <div id="badge-wrapper">
                 <h1>Badge</h1>
                 <div class="badge-on-icons">
                     <div class="badge-container">
@@ -83,7 +87,9 @@
                 <h4>HTML</h4>
                 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FBadge%2Fbadge.html%23L15-L30&style=darcula&showBorder=on&showCopy=on"></script>            
             </div>
-            <div class="button-container">
+
+            <div id="button-wrapper">
+            <div id="button-container">
                 <h1>Button</h1>
                 <button class="btn">Primary</button>
                 <button class="btn btn-outline">Outline</button>
@@ -98,29 +104,33 @@
                 </div>
                 <div class="code-snippet">
                     <h4>HTML: </h4>                    
-                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FBadge%2Fbadge.html%23L14-L30&style=darcula&showBorder=on&showCopy=on"></script>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FButton%2Fbutton.html%23L14-L24&style=darcula&showBorder=on&showCopy=on"></script>
                 </div>
             </div>
-            <div class="grid-wrapper">
+            </div>
+
+            <div id="grid-wrapper">
                 <h1>Grids</h1>
+                <p>2 Column grid</p>
                 <div class="grid-container-2">
                     <div class="column-2">
-                        <img src = "https://picsum.photos/500/200"/>
+                        <img src = "https://picsum.photos/410/200"/>
                     </div>
                     <div class="column-2">
-                        <img src = "https://picsum.photos/400/200"/>
+                        <img src = "https://picsum.photos/410/200"/>
                     </div>
                    
                 </div>
+                <p>3 Column grid</p>
                 <div class="grid-container-3">
                     <div class="column-3">
-                        <img src = "https://picsum.photos/320/200"/>
+                        <img src = "https://picsum.photos/250/200"/>
                     </div>
                     <div class="column-3">
-                        <img src = "https://picsum.photos/320/200"/>
+                        <img src = "https://picsum.photos/250/200"/>
                     </div>
                     <div class="column-3">
-                        <img src = "https://picsum.photos/320/200"/>
+                        <img src = "https://picsum.photos/250/200"/>
                     </div>            
                 </div>
 
@@ -130,7 +140,421 @@
                 </div>
 
             </div>
-            <div class="image-wrapper">
+
+            <div id="image-wrapper">
+                <h1>Images</h1>
+                <div class="img-container">
+
+                    <p>Standard Image & Image with rounded border:</p>
+                    <img class="img" src = "https://picsum.photos/300/200"/>
+                    
+                    <img class="img img-round-border" src = "https://picsum.photos/300/200"/>
+                </div>
+                <div class="img-container ">
+                    <p>Rounded Image:</p>
+                    <img class = "img img-rounded" src = "https://picsum.photos/300/300"/>
+                </div>
+                <div class="code-snippet">
+                    <h4>HTML:</h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2Fimage%2Fimage.html%23L13-L19&style=darcula&showBorder=on&showCopy=on"></script>        
+                </div>
+            </div>   
+
+            <div id="input-wrapper">
+                <h1>Input</h1>
+
+                <div class="input-container">
+                    <input class = "input input-primary" type = "text" placeholder="Enter text here"/>
+                </div>
+                <div class="input-container">
+                  <input class = "input input-primary" type = "email" placeholder="Enter email here"/>
+                </div>
+                <div class="input-container">
+                    <input class = "input input-primary" type = "password" placeholder="Enter password here"/>
+                </div>
+        
+                <div class="input-container">
+                    <input class = "input input-error" type="text" placeholder="&#xF071; Warning" style="font-family:Arial, FontAwesome" />
+                </div>
+
+                <div class="code-snippet">
+                    <h4>HTML:</h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2Finput%2Finput.html%23L13-L27&style=darcula&showBorder=on&showCopy=on"></script>
+                </div>
+
+            </div>
+
+            <div id="modal-wrapper">
+                <h1>Modal</h1>
+                <button class="button-modal" id="openModal">Click to Open Modal</button>
+
+                <div class="modal_container center" id="modal_container">
+                    <div class="modal">
+                      <h3>Lorem Ipsum</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                      </p>
+                      <button class="btn" id="closeModal">Close</button>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <h4>HTML:</h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FModal%2Fmodal.html%23L17-L29&style=darcula&showBorder=on&showCopy=on"></script>
+                    <h4>Javascript:</h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FModal%2Fmodal.js%23L1-L11&style=darcula&showBorder=on&showCopy=on"></script>
+                </div>
+            </div>
+
+            <div id="rating-wrapper">
+
+                <h1>Rating</h1>
+
+                <div class="rating">
+                    <i class="fa fa-star filled"></i>
+                    <i class="fa fa-star filled"></i>
+                    <i class="fa fa-star filled"></i>
+                    <i class="fa fa-star "></i>
+                    <i class="fa fa-star "></i>
+                </div>
+
+                <div class="code-snippet">
+                    <h4>HTML:</h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FRating%2Frating.html%23L15-L21&style=darcula&showBorder=on&showCopy=on"></script>
+                </div>
+            </div>
+
+            <div id="card-wrapper">
+                <h1>Card</h1>
+                <h3>Standard card and card with Badge:</h3>
+
+                <div class="card-container">
+
+    
+                    <div class="card card-standard">
+                      <div class="card-img">
+                        <img src="./../card/fitbit3.jpeg" alt="card image">          
+                      </div>
+                        
+                      <div class="card-body">
+                
+                        <div class="card-title">
+                          <h3>Fitbit Versa 2</h3>            
+                        </div>
+                
+                        <p class="card-desc">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        
+                        <p class="price-section">
+                          Rs 14,999
+                        </p>
+                
+                        <ul class="card-rating">
+                          <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                          <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                          <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                          <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                          <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        </ul>  
+                
+                        <button class="card-footer">
+                          <span class="footer-icon">
+                            <i class="fa fa-shopping-cart"></i>
+                          </span>
+                          <p class="footer-text">Shop Now</p>
+                        </button>
+                      </div>
+                    </div>
+                
+                    <div class="card card-standard card-with-badge">
+                      <div class="card-img">
+                        <img src="./../card/fitbit3.jpeg" alt="card image">          
+                      </div>
+                        
+                      <div class="card-body">
+                
+                        <div class="card-title">
+                          <h3>Fitbit Versa 2</h3>            
+                        </div>
+                
+                        <p class="card-desc">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        
+                        <p class="price-section">
+                          Rs 14,999
+                        </p>
+                
+                        <ul class="card-rating">
+                          <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                          <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                          <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                          <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                          <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        </ul>  
+                
+                        <button class="card-footer">
+                          <span class="footer-icon">
+                            <i class="fa fa-shopping-cart"></i>
+                          </span>
+                          <p class="footer-text">Shop Now</p>
+                        </button>
+                      </div>
+                      <span  class="card-badge">
+                        <i class="fa fa-bookmark"></i>
+                      </span>
+                    </div>       
+                
+                </div>
+                
+                <div class="code-snippet">
+                    <h4>HTML: </h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2Fcard%2Fcard.html%23L17-L51&style=darcula&showBorder=on&showCopy=on"></script>
+
+                    <h4>To add badge:</h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2Fcard%2Fcard.html%23L87-L89&style=darcula&showBorder=on&showCopy=on"></script>
+                </div>
+                <h3>Closable Standard card and text-only card:</h3>
+
+                <div class="card-container">
+
+                <div class="card card-standard card-close">
+                    <div class="card-img">
+                        <img src="./../card/fitbit3.jpeg" alt="card image">          
+                    </div>
+                        
+                    <div class="card-body">
+                
+                        <div class="card-title">
+                        <h3>Fitbit Versa 2</h3>            
+                        </div>
+                
+                        <p class="card-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                        
+                        <p class="price-section">
+                        Rs 14,999
+                        </p>
+                
+                        <ul class="card-rating">
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        </ul>  
+                
+                        <button class="card-footer">
+                        <span class="footer-icon">
+                            <i class="fa fa-shopping-cart"></i>
+                        </span>
+                        <p class="footer-text">Shop Now</p>
+                        </button>
+                
+                        
+                    </div>
+                
+                    <i class="fa fa-times-circle rui-cross card-close-btn"></i>
+                    </div>
+                
+                    <div class="card card-standard card-close">
+                    <!-- <div class="card-img">
+                        <img src="./../card/fitbit3.jpeg" alt="card image">          
+                    </div>
+                        -->
+                    <div class="card-body">
+                
+                        <div class="card-title">
+                        <h3>Fitbit Versa 2</h3>            
+                        </div>
+                
+                        <p class="card-desc">
+                        Elevate your day with the Fitbit Versa 2™ health & fitness smartwatch.
+                        Get Amazon Alexa Built-in, 
+                        new sleep tools, fitness features, apps and more, all with 6+ day battery life.
+                        Track sleep, activity, heart rate and more around the clock with multi day battery on a single charge.
+                        Get tracking data, motivation and guidance, all in one place.
+                        Get Amazon Alexa Built-in, 
+                        new sleep tools, fitness features, apps and more, all with 6+ day battery life.
+                        </p>
+                        
+                        
+                        <p class="price-section">
+                        Rs 14,999
+                        </p>
+                
+                        <ul class="card-rating">
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        </ul>  
+                
+                        <button class="card-footer">
+                        <span class="footer-icon">
+                            <i class="fa fa-shopping-cart"></i>
+                        </span>
+                        <p class="footer-text">Shop Now</p>
+                        </button>
+                
+                        
+                    </div>
+                
+                    <i class="fa fa-times-circle rui-cross card-close-btn"></i>
+                    </div>
+
+                </div>
+
+                <div class="code-snippet">
+                    <h4>To add close button:</h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2Fcard%2Fcard.html%23L129&style=darcula&showBorder=on&showCopy=on"></script>
+                
+                    <h4>Text Only Card:</h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2Fcard%2Fcard.html%23L132-L164&style=darcula&showBorder=on&showCopy=on"></script>
+                </div>
+                <h3>Horizontal card and card with with text-overlay:</h3>
+
+                <div class="card-container">
+                
+                <div class="card card-horizontal">
+                    <div class="card-img">
+                    <img src="./../card/fitbit3.jpeg" alt="card image">          
+                    </div>
+                    <div class="card-body">
+            
+                    <div class="card-title">
+                        <h3>Fitbit Versa 2</h3>            
+                    </div>
+            
+                    <p class="card-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    
+                    <p class="price-section">
+                        Rs 14,999
+                    </p>
+            
+                    <ul class="card-rating">
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                    </ul>  
+            
+                    <button class="card-footer">
+                        <span class="footer-icon">
+                        <i class="fa fa-shopping-cart"></i>
+                        </span>
+                        <p class="footer-text">Shop Now</p>
+                    </button>
+                    </div>
+                </div>
+            
+                <div class="card card-horizontal">
+                    <div class="card-img">
+                    <img src="../card/fitbit3.jpeg" alt="card image">          
+                    </div>
+            
+                    <div class="card-body">
+                    <div class="card-title">
+                        <h3>Fitbit Versa 2</h3>            
+                    </div>
+            
+                    <p class="card-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    
+                    <p class="price-section">
+                        Rs 14,999
+                    </p>
+            
+                    <ul class="card-rating">
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-star filled" aria-hidden="true"></i></li>
+                    </ul>  
+            
+                    <button class="card-footer">
+                        <span class="footer-icon">
+                        <i class="fa fa-shopping-cart"></i>
+                        </span>
+                        <p class="footer-text">Shop Now</p>
+                    </button>
+                    </div>
+            
+                    <span class="text-overlay">Sold Out</span>
+                </div>
+                </div>
+
+                <div class="code-snippet">
+                    <h4>To add the text overlay:</h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2Fcard%2Fcard.html%23L236&style=darcula&showBorder=on&showCopy=on"></script>
+                </div>
+            </div>
+
+            <div id="toast-wrapper">
+                <h1>Toast</h1>
+                <div class="toast-container">
+                    <div class="toast success-toast">
+                      <span class="toast-heading">Success</span>
+                      This is a success toast!
+                      <span class="close-toast"> X</span>
+                    </div>
+                    <div class="toast warning-toast">
+                      <span class="toast-heading">Warning</span>
+                      This is a warning toast!
+                      <span class="close-toast"> X</span>
+                    </div>
+                    <div class="toast error-toast">
+                      <span class="toast-heading">Error</span>
+                      This is a error toast!
+                      <span class="close-toast"> X</span>
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                    <h4>HTML:</h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FToast%2Ftoast.html%23L18-L34&style=darcula&showBorder=on&showCopy=on"></script>
+
+                    <h4>Javascript:</h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FToast%2Ftoast.js%23L1-L7&style=darcula&showBorder=on&showCopy=on"></script>
+                </div>
+            </div>
+
+            <div id="typography-wrapper">
+
+                <h1>Typography</h1>
+
+                <p class="extra-large-text">
+                    The quick brown fox jumps over the lazy dog
+                </p>
+                <p class="large-text">
+                    The quick brown fox jumps over the lazy dog
+                </p>
+                <p class="small-text">
+                    The quick brown fox jumps over the lazy dog
+                </p>
+                <p class="extra-small-text">
+                    The quick brown fox jumps over the lazy dog
+                </p>
+                <p class="extra-large-text gray">
+                    The quick brown fox jumps over the lazy dog
+                </p>
+                <p class="extra-large-text center">
+                    The quick brown fox jumps over the lazy dog
+                </p>
+
+                <div class="code-snippet">
+                    <h4>HTML:</h4>
+                    <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2FShruthi-Babu%2Fcomp-lib%2Fblob%2Fdev%2FTypography%2Ftypo.html%23L12-L29&style=darcula&showBorder=on&showCopy=on"></script>
+                </div>
 
             </div>
 

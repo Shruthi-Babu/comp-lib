@@ -136,7 +136,7 @@ a {
 
 .code-snippet{
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .js {
@@ -147,3 +147,6 @@ a {
     margin: auto;
 }
 
+p {
+    font-size: 1.5rem;
+}

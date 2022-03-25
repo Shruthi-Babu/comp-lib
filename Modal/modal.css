@@ -30,11 +30,13 @@
   .modal {
     border: 1px solid black;
     border-radius: 1rem;
-    width: 30%;
+    width: 40%;
     padding: 1rem;
     max-width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     color: var(--primary-color);
+    height: auto;
+    font-size: 1.5rem;
   }
   
   .modal_container.show_modal {
@@ -48,8 +50,8 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     border-radius: 0.5rem;
     color: var(--primary-color);
-    width: 6rem;
-    height: 3rem;
+    width: 10rem;
+    height: 4rem;
     display: block;
     margin: auto;
     cursor: pointer;
